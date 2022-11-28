@@ -9,13 +9,17 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    capot.cpp \
     main.cpp \
     equilibreuse.cpp \
-    mcculdaq.cpp
+    mcculdaq.cpp \
+    moteur.cpp
 
 HEADERS += \
+    capot.h \
     equilibreuse.h \
-    mcculdaq.h
+    mcculdaq.h \
+    moteur.h
 
 FORMS += \
     equilibreuse.ui
